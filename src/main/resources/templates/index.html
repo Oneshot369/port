@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" 
+<html 
+xmlns:th="http://www.thymeleaf.org" 
 xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
-layout:decorate="layout/template.html">
+layout:decorate="layout/template.html"
+>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +15,6 @@ layout:decorate="layout/template.html">
     <!-- bootstrap 5 END -->
 </head>
 <body>
-    <div th:insert="layout/commonNavBar :: header"></div>
     <div layout:fragment="content">
         <h1>Home Page</h1>
     </div>
