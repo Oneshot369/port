@@ -32,3 +32,26 @@
     font-size: 25px;
 }
 /* Navbar END*/
+
+/* Boxes */
+.holdingBox{
+    justify-content: space-evenly;
+    display: flex;
+}
+.box1{
+    border-radius: 10px;
+    background-color: var(--secondaryBack);
+    width: 40%;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box2{
+    border-radius: 11px;
+    background-color: var(--secondaryBack);
+    width: 40%;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Boxes END */
