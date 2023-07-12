@@ -1,0 +1,10 @@
+
+table{
+    
+}
+thead{
+    min-width: 50%;
+}
+td{
+    color: var(--secondPrimary);
+}
