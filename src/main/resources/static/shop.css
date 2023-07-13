@@ -1,10 +1,43 @@
 
 table{
-    
+    min-width: 50%;
 }
 thead{
     min-width: 50%;
+
+    /* Not working */
+    border-radius: 20px;
+    
+    border: 2px solid var(--secondaryBack);
+    background-color: var(--secondaryBack);
+    border-collapse: separate; 
+}
+th{
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+    text-align: center;
+    font-weight: bolder;
+}
+th:hover{
+    background-color: var(--primary);
+    
+    color: var(--primaryBack);
 }
 td{
-    color: var(--secondPrimary);
+    color: var(--text);
+    padding-left: 5px;
+    margin-left: 5px;
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+}
+tbody{
+    min-width: 50%;
+
+    /* Not working */
+    border-radius: 20px;
+    
+    border: 2px solid var(--secondaryBack);
+    background-color: var(--secondaryBack);
+    border-collapse: separate; 
+    
 }
