@@ -3,10 +3,10 @@ package com.josh.port.business;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.josh.port.interfaces.ProductDaoInterface;
+import com.josh.port.interfaces.ProductBusinessInterface;
 import com.josh.port.model.ProductModel;
 
-public class ProductFakeList implements ProductDaoInterface{
+public class ProductFakeList implements ProductBusinessInterface{
     private List<ProductModel> products;
 
     public ProductFakeList() {

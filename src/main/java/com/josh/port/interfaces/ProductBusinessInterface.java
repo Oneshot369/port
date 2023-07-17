@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.josh.port.model.ProductModel;
 
-public interface ProductDaoInterface {
+public interface ProductBusinessInterface {
     // Create operation
     void addProduct(ProductModel product);
 

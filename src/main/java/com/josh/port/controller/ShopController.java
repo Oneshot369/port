@@ -6,14 +6,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.josh.port.interfaces.ProductDaoInterface;
+import com.josh.port.interfaces.ProductBusinessInterface;
 
 @Controller
 @RequestMapping("/shop")
 public class ShopController {
 
     @Autowired
-    private ProductDaoInterface productService;
+    private ProductBusinessInterface productService;
 
     @GetMapping("/")
     public String getShopPage(Model model) {

@@ -34,10 +34,13 @@ tbody{
     min-width: 50%;
 
     /* Not working */
+    
+    
+}
+tr{
     border-radius: 20px;
     
     border: 2px solid var(--secondaryBack);
     background-color: var(--secondaryBack);
     border-collapse: separate; 
-    
 }
